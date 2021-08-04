@@ -1,0 +1,61 @@
+{
+  "books": [
+    {
+      "bookId": "1",
+      "name": "Java in a Nutshell",
+      "authors": [
+        {
+          "authorId": "1",
+          "firstName": "Benjamin",
+          "middleName": "J",
+          "lastName": "Evans"
+        },
+        {
+          "authorId": "2",
+          "firstName": "David",
+          "middleName": "",
+          "lastName": "Flanagan"
+        }
+      ],
+      "language": "English",
+      "genre": ["CSE", "Programming", "Technical", "Java"],
+      "publisher": "O'Reilly",
+      "edition": "7",
+      "price": "Rs. 925"
+    },
+    {
+      "bookId": "2",
+      "name": "Core Java Volume I",
+      "authors": [
+        {
+          "authorId": "3",
+          "firstName": "Cay",
+          "middleName": "S",
+          "lastName": "Horstmann"
+        }
+      ],
+      "language": "English",
+      "genre": ["CSE", "Programming", "Technical", "Java"],
+      "publisher": "Pearson",
+      "edition": "10",
+      "price": "Rs. 900"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "type": "Science and Technology",
+      "message": "Mostly Computer Science and Engineering books but also contains some Civil Engineering, Physics and Mathematics books."
+    },
+    {
+      "id": "2",
+      "type": "Fiction",
+      "message": "Classic and modern fictions in Bengali, English and Hindi written by eminent authors"
+    },
+    {
+      "id": "3",
+      "type": "History",
+      "message": "From the Prehistoric times to World Wars. From Karl Marx to Jyoti Basu. These history books presents a people's history of India and the world."
+    }
+  ]
+}
